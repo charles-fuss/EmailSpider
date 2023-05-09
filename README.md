@@ -1,7 +1,5 @@
 # EmailSpider
 
-# Email Crawler
-
 This Python script is designed to crawl and extract email addresses from a given website. The script navigates through the website's pages, extracting email addresses and saving them into a list. It uses the `requests` library to fetch web pages and the `lxml` library to parse the HTML content.
 
 ## Features
