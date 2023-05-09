@@ -43,6 +43,9 @@ print(f"Website: {name}")
 print(f"Total emails found: {email_count}")
 print("Email addresses:", emails)
 ```
+
+I also added the file, ExcelReader, to read each entry from a predefined column to pass into the crawler. This is helpful for lead generation if you have a large list of company URL leads from an excel sheet, the script will read in the URLs and return the same excel sheet, except with a new column,  . At least that's what I wrote the script for anyways.
+
 ## Customization
 You can customize the script by modifying the URL filtering, email extraction, or output formatting as needed.
 
